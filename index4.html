@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root {
+        --root-font-size: 16px;
+        --background-color: #ffeead;
+        --block-color: #88d8b0;
+      }
+
+      body {
+        font-size: var(--root-font-size);
+      }
+
+      .header {
+        background-color: var(--block-color);
+        color: var(--background-color);
+        text-align: center;
+      }
+
+      .header > div {
+        display: inline-block;
+        padding: 10px 80px;
+      }
+
+      .main {
+        background-color: var(--background-color);
+        text-align: center;
+      }
+
+      .main > div {
+        width: 200px;
+        height: 200px;
+        background-color: var(--block-color);
+        color: var(--background-color);
+        text-align: center;
+        margin: 10px;
+        display: inline-block;
+        padding-top: 40px;
+        box-sizing: border-box;
+        width: 200px;
+        height: 100px;
+      }
+
+      h2 {
+        color: var(--block-color);
+        margin: 0px;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div>home</div>
+      <div>about</div>
+      <div>contact</div>
+    </div>
+    <div class="main">
+      <h2>my awesome portfolio</h2>
+      <div>project a</div>
+      <div>project b</div>
+      <div>project c</div>
+      <div>project d</div>
+    </div>
+  </body>
+</html>
